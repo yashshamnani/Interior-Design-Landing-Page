@@ -8,7 +8,7 @@
 
  
 
-## LiveLink -- [Interior-design](https://web-design-homepage-yash-shamnani.netlify.app/)
+## LiveLink -- [Interior-design](https://yashshamnani-interior-design-homepage.netlify.app/)
 
 
 
