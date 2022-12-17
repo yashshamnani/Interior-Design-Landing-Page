@@ -1,0 +1,178 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: "Montserrat",sans-serif;
+    overflow: hidden;
+    background-image: url("../images/bg.jpg");
+    background-position: 80% 100%;
+    background-size: cover;
+background-repeat: no-repeat;
+ 
+    
+}
+.navbar{
+    display: flex;
+     
+    justify-content: space-between;
+}
+.nav-right{
+     margin-left: 50px;
+     margin-top: 40px;
+}
+.logo{
+    color: #fff;
+    font-size: 30px;
+}
+.list{
+    margin-top: 40px;
+    margin-right: 60px;
+    width: 75vw;
+    color: #fff;
+     
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+     
+    border-bottom: 2px solid #fff;
+    height: 74px;
+
+}
+.list-item{
+    font-size: 20px;
+}
+.fa-solid.fa-phone{
+    font-size: 19px;
+}
+.hero-left{
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.hero-left>h1{
+    color: #fff;
+    font-size: 55px;
+}
+.button{
+    margin-top: 70px;
+    padding: 10px 40px;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #ffff;
+     
+}
+.card{
+    width: 250px;
+     height: 170px;
+     background-color: #304657b9;;
+}
+.card-bulb{
+     position: relative;
+     left: 700px;
+     bottom: 70px;
+     }
+     .bulb-icon{
+        margin-top: 30px;
+        margin-left: 30px;
+        border-radius: 25px;
+        background-color: #fff;
+        padding: 0px 15px;
+        height: 40px;
+     }
+     .desc{
+        margin-left: 30px;
+        color: #fff;
+        margin-top: 15px;
+     }
+     .puzzle-icon{
+        margin-top: 30px;
+        margin-left: 30px;
+        border-radius: 25px;
+        background-color: #fff;
+        padding: 0px 15px;
+        height: 40px;
+     }
+     .card.card-puzzle{
+        position: absolute;
+        right: 120px;
+        top: 140px;
+     }
+     .card-bulb .dot-line{
+         position: relative;
+         left: 62px;
+         bottom: 180px;
+         transform: rotate(90deg);
+     }
+     .card-puzzle .dot-line{
+        position: relative;
+        transform: rotate(180deg);
+        bottom: 165px;
+     }
+
+                   /* Media queries */
+    
+     @media screen and (max-width: 840px) {
+        body{
+             background-position: center  ;
+        background-attachment: fixed;  
+         box-sizing: border-box;
+       
+        }
+        .logo{
+            font-size: 20px;
+        }
+        .list{
+            margin-top: 50px;
+            margin-right: 0px;
+            width: 80vw;
+            color: #fff;
+            margin-left: 180px;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+             
+            border-bottom: none;
+            height: 74px;
+        
+        }
+        .list-item{
+            font-size: 15px;
+        }
+        .fa-solid.fa-phone{
+            font-size: 15px;
+        }
+        .card-bulb{
+            position:  absolute;
+      
+            bottom: 100px;
+        
+
+            }
+            .card.card-puzzle{
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                top: 1000px;
+                
+             }
+     }
+
+     @media screen and (max-width:650px) {
+        li:last-child{
+            display: block;
+        }
+        .list{
+            display: none;
+        }
+        li:last-child{
+            display: block;
+        }
+        .fa-solid.fa-phone{
+             display: block;
+        }
+     }
